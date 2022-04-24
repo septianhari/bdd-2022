@@ -1,0 +1,100 @@
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 20px;
+   overflow:  auto;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+header {
+   display: inline;
+}
+
+h2, h3 {
+   color: #00a2c6
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.profile header {
+  text-align: center;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   text-align: center;
+   background-color: #00a2c6
+   
+}
